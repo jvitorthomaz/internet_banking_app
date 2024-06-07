@@ -18,14 +18,14 @@ class Header extends StatelessWidget {
         ),
         borderRadius: BorderRadius.vertical(bottom: Radius.circular(15))
       ),
-      child: Padding(
+      child: const Padding(
         padding: const EdgeInsets.fromLTRB(16.0, 80.0, 16.0, 16.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: const <Widget>[
+              children:  <Widget>[
                 Text.rich(
                   TextSpan(
                     text: '\$',
